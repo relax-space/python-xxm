@@ -1,5 +1,5 @@
 import unittest
-from python100 import level1
+from p100 import level1
 
 """
 py.test.exe tests/level1_test.py -s
