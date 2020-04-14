@@ -32,6 +32,7 @@ class StrDto:
     def printString(self,rawStr):
         up = rawStr.upper()
         print(up)
+        return up
 
 def s4():
     print("4.===================")
