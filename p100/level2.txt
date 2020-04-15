@@ -40,7 +40,7 @@ bag,hello,without,world
 假设将以下输入提供给程序：
 Hello world world Practice makes perfect
 Then, the output should be:
-HELLO WORLD PRACTICE MAKES PERFECT
+HELLO MAKES PERFECT PRACTICE WORLD
 
 提示：
 如果将输入数据提供给问题，则应假定它是控制台输入。

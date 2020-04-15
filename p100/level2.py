@@ -23,7 +23,9 @@ def s8():
 def s9():
     rawStr ="Hello world world Practice makes perfect"
     strDict = {v.upper():"" for v in rawStr.split(" ")}
-    print(" ".join(strDict.keys()))
+    print(type(strDict.keys()))
+    list =  sorted(strDict.keys())
+    print(" ".join(list))
 
 def s10():
     rawStr="hello world! 123"
