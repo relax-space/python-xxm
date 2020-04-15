@@ -1,5 +1,8 @@
 import re
 
+"""
+参考：https://vimsky.com/article/3603.html
+"""
 def s18():
     while True:
         value = input("请输入密码,输入exit退出:")
