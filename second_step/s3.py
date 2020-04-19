@@ -1,13 +1,13 @@
-import traceback
+import re
 
-def zero():
-    try:
-        a = 0
-        b = 1
-        c =b/a
-        return None
-    except Exception as inst:
-        return traceback.format_exc()
+def fetch(contents):
+    pat = re.compile(r'/v1/'+r'(.*?)(\?|\/|$)')
+    pMatch = re.search(pat,contents)
+    return pMatch.group(1)
 
-err = zero()
-print(err)
+
+print(fetch("/v1/fruits?name=1"))
+print(fetch("/v1/fruits/1"))
+print(fetch("/v1/fruits"))
+
+
