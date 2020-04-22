@@ -2,7 +2,7 @@ import pymongo
 """
 mongo数据库的增删改查
 
-1.首先本地启动mongodb： docker-compose -f second_step/example/docker-compose.yml up
+1.首先本地启动mongodb： docker-compose -f second_step/example/mongo.yml up
 2.运行以下命令
 python.exe .\second_step\s7.py
 
